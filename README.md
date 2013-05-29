@@ -1,4 +1,4 @@
 riminder
 ========
 
-personal tasks remind APP
+personal tasks reminding & mantaining APP
