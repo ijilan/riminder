@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="查询所有日历"
+    android:id="@+id/querycalendars"
+       />
+   <Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="添加新日历项"
+    android:id="@+id/addevents"
+       />
+   <Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="查询所有event"
+    android:id="@+id/queryevents"
+       />
+    <EditText 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="在这里输入要删除event的id"
+    android:id="@+id/geteventid"
+    />
+     <Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="删除该event"
+    android:id="@+id/delevent"
+       />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayevents"
+         />
+
+</LinearLayout>

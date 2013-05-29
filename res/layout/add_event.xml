@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/add_new_event">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="在此填写新event的名字"
+    	android:id="@+id/event_name"
+    	android:selectAllOnFocus="true"
+        />
+    <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="简要描述新event"
+    	android:id="@+id/event_description"
+    	android:selectAllOnFocus="true"
+        />
+
+    <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="点击选择开始日期"
+    	android:id="@+id/select_begin_date"
+    	android:selectAllOnFocus="true"
+        />
+	<EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="点击选择开始时间"
+    	android:id="@+id/select_begin_time"
+    	android:selectAllOnFocus="true"
+        />
+   <!--  
+    <TextView 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="选择新event的结束时间："
+        />
+	-->
+    <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="点击选择结束日期"
+    	android:id="@+id/select_end_date"
+    	android:selectAllOnFocus="true"
+        />
+	<EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="点击选择结束时间"
+    	android:id="@+id/select_end_time"
+    	android:selectAllOnFocus="true"
+        />
+
+    <!--  
+    <TextView 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="为新event的添加reminder："
+        /> 
+      -->
+
+<!--  
+    <TextView 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="新event提前多少分钟提醒您："
+        />
+ -->
+     <EditText 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="在此填写新event提前多少分钟提醒您："
+    	android:selectAllOnFocus="true"
+    	android:id="@+id/reminder_minutes"
+        />
+
+    <Button 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="确定"
+    	android:id="@+id/ok"
+        />
+    <Button 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="返回"
+    	android:id="@+id/goback"
+        />
+
+</LinearLayout>
+</ScrollView>
